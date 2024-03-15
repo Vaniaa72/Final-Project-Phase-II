@@ -1,0 +1,10 @@
+Passenger(int startFloor, int destinationFloor) {
+        super(startFloor, destinationFloor, "Staff");
+    }
+}
+
+class VisitorPassenger extends Passenger {
+    public VisitorPassenger(int startFloor, int destinationFloor) {
+        super(startFloor, destinationFloor, "Visitor");
+    }
+}
